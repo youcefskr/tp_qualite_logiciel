@@ -24,6 +24,8 @@
 - ❌ Bug détecté : boucle `for (int i = 0; i <= symbols.length)` causait une exception `IndexOutOfBoundsException`.
 - ✅ Couverture : tests sur les cas limites (1, 4, 9, 40, 90, 3999, etc.).
 
+## ✅ Exo6 - FizzBuzz
+-  Correction apportée : la condition `if (n <= 1)` devait être `if (n < 1)` pour permettre `fizzBuzz(1)`.  
 
 
 
