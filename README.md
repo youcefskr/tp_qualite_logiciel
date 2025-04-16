@@ -1,11 +1,25 @@
-TP1 README
 
-Exercice Palindrome
+# TP1 - Tests JUnit & Couverture de Code
+## ✅ Exercice 1 - Palindrome
+- ❌ **Bug détecté** : les indices `i++` et `j--` étaient inversés (`i--`, `j++`).
 
-Bug : indices inversés dans la boucle while.
 
-Correction : remplacer i--, j++ par i++, j--.
+---
 
-Tests : cas null, vide, un caractère, palindromes (pair/impair), non-palindrome.
+## ✅ Exercice 2 - Anagram
+- ❌ **Bug détecté** : boucle `for` avec `i <= s1.length()` provoque `IndexOutOfBoundsException`.
 
-Couverture : lignes, branches et conditions couvertes.
+---
+
+## ✅ Exercice 3 - BinarySearch
+- ❌ **Bug détecté** : la boucle `while (low < high)` empêche de tester l'élément `mid` quand `low == high`.
+
+
+---
+
+## ✅ Exercice 4 - QuadraticEquation
+- ✅ **Pas de bug** identifié.
+
+
+
+
