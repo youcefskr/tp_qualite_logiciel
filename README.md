@@ -20,6 +20,10 @@
 ## ✅ Exercice 4 - QuadraticEquation
 - ✅ **Pas de bug** identifié.
 
+## ✅ Exercice 5 - RomanNumeral
+- ❌ Bug détecté : boucle `for (int i = 0; i <= symbols.length)` causait une exception `IndexOutOfBoundsException`.
+- ✅ Couverture : tests sur les cas limites (1, 4, 9, 40, 90, 3999, etc.).
+
 
 
 
