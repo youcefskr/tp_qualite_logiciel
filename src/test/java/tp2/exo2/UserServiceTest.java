@@ -15,7 +15,6 @@ public class UserServiceTest {
 
     @Test
     public void testCreerUtilisateur() throws ServiceException {
-
         Utilisateur utilisateur = new Utilisateur("youcef", "saker", "youcefsaker@email.com");
         doNothing().when(utilisateurApiMock).creerUtilisateur(utilisateur);
         UserService userService = new UserService(utilisateurApiMock);
